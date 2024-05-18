@@ -12,7 +12,7 @@ import java.util.List;
 @CrossOrigin("*")
 @AllArgsConstructor
 @RequestMapping("/api/accounts")
-public class BankAccountRestAPI {
+public class BankAccountController {
 
     private final BankAccountService bankAccountService;
 
